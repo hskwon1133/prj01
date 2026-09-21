@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['0', 'lacto', 'lib', 'salt']
+
+roboflow:
+  workspace: -0cfrd
+  project: prj9999999999
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/-0cfrd/prj9999999999/dataset/7
